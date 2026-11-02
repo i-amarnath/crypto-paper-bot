@@ -1,0 +1,6 @@
+strategy,symbol,entry_time,entry_price,exit_time,exit_price,qty,cost,pnl,pnl_pct,reason
+meanrev,BTC,02 Nov 19:15,78203.092005,02 Nov 19:30,77898.1685185,0.00021312,16.6833,-0.0983,-0.589,stop-loss
+trend,ETH,02 Nov 20:30,2292.935895,02 Nov 21:30,2274.69251033,0.0072687,16.6833,-0.1658,-0.994,stop-loss
+trend,XRP,02 Nov 18:00,1.2542268,02 Nov 18:45,1.2495749,13.24433336,16.628,-0.0948,-0.57,EMA cross-down
+breakout,XRP,02 Nov 19:15,1.2616305,02 Nov 19:30,1.25459288,13.21041832,16.6833,-0.1262,-0.757,stop-loss
+trend,XRP,02 Nov 19:15,1.2616305,02 Nov 19:45,1.25245727,13.14157118,16.5964,-0.1536,-0.925,stop-loss
