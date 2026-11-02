@@ -1,0 +1,44 @@
+{
+ "started_at": 1793615597343,
+ "ends_at": 1793788397343,
+ "finished": false,
+ "capital": 50.0,
+ "source": "binance_vision",
+ "last_ts": {
+  "BTC": 1793614500000,
+  "ETH": 1793614500000,
+  "SOL": 1793614500000,
+  "XRP": 1793614500000,
+  "DOGE": 1793614500000
+ },
+ "start_price": {
+  "BTC": 77982.05,
+  "ETH": 2287.24,
+  "SOL": 94.13,
+  "XRP": 1.2484,
+  "DOGE": 0.0753
+ },
+ "last_price": {
+  "BTC": 77982.05,
+  "ETH": 2287.24,
+  "SOL": 94.13,
+  "XRP": 1.2484,
+  "DOGE": 0.0753
+ },
+ "accounts": {
+  "trend": {
+   "cash": 50.0,
+   "positions": {}
+  },
+  "meanrev": {
+   "cash": 50.0,
+   "positions": {}
+  },
+  "breakout": {
+   "cash": 50.0,
+   "positions": {}
+  }
+ },
+ "runs": 1,
+ "errors": []
+}
