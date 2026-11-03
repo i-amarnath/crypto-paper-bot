@@ -1,13 +1,13 @@
-# Crypto paper-trading trial (🟢 RUNNING - 32.0h left)
+# Crypto paper-trading trial (🟢 RUNNING - 24.5h left)
 
-Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 03 Nov 08:03 IST (run #3).
+Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 03 Nov 15:33 IST (run #4).
 
 | Account | Equity | P&L | Return | Trades | Win rate | Open |
 |---|---:|---:|---:|---:|---:|---:|
-| **trend** | $49.59 | $-0.41 | -0.83% | 3 | 0% | 0 |
+| **trend** | $49.50 | $-0.50 | -1.00% | 4 | 0% | 1 |
 | **meanrev** | $49.90 | $-0.10 | -0.20% | 1 | 0% | 0 |
-| **breakout** | $49.87 | $-0.13 | -0.25% | 1 | 0% | 0 |
-| *buy & hold (benchmark)* | $49.38 | $-0.62 | -1.23% | - | - | - |
+| **breakout** | $49.76 | $-0.24 | -0.48% | 2 | 0% | 0 |
+| *buy & hold (benchmark)* | $49.48 | $-0.52 | -1.04% | - | - | - |
 
 ![equity](equity.png)
 
@@ -19,12 +19,16 @@ Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 
 
 ## Open positions
 
-None.
+| Strategy | Coin | Entry | Now | Stop | Target | Unrealized |
+|---|---|---:|---:|---:|---:|---:|
+| trend | XRP | 1.25633 | 1.2563 | 1.24988 | 1.26921 | $-0.017 |
 
 ## Last 25 closed trades
 
 | Strategy | Coin | In | Out | Entry | Exit | P&L | Why |
 |---|---|---|---|---:|---:|---:|---|
+| trend | XRP | 03 Nov 09:30 | 03 Nov 12:15 | 1.25243 | 1.24977 | $-0.068 (-0.41%) | EMA cross-down |
+| breakout | XRP | 03 Nov 10:00 | 03 Nov 10:45 | 1.25813 | 1.25201 | $-0.114 (-0.69%) | stop-loss |
 | trend | XRP | 02 Nov 19:15 | 02 Nov 19:45 | 1.26163 | 1.25246 | $-0.154 (-0.93%) | stop-loss |
 | breakout | XRP | 02 Nov 19:15 | 02 Nov 19:30 | 1.26163 | 1.25459 | $-0.126 (-0.76%) | stop-loss |
 | trend | XRP | 02 Nov 18:00 | 02 Nov 18:45 | 1.25423 | 1.24957 | $-0.095 (-0.57%) | EMA cross-down |
