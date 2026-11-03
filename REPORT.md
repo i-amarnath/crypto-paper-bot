@@ -1,13 +1,13 @@
-# Crypto paper-trading trial (🟢 RUNNING - 38.2h left)
+# Crypto paper-trading trial (🟢 RUNNING - 32.0h left)
 
-Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 03 Nov 01:53 IST (run #2).
+Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 03 Nov 08:03 IST (run #3).
 
 | Account | Equity | P&L | Return | Trades | Win rate | Open |
 |---|---:|---:|---:|---:|---:|---:|
 | **trend** | $49.59 | $-0.41 | -0.83% | 3 | 0% | 0 |
 | **meanrev** | $49.90 | $-0.10 | -0.20% | 1 | 0% | 0 |
 | **breakout** | $49.87 | $-0.13 | -0.25% | 1 | 0% | 0 |
-| *buy & hold (benchmark)* | $49.22 | $-0.78 | -1.57% | - | - | - |
+| *buy & hold (benchmark)* | $49.38 | $-0.62 | -1.23% | - | - | - |
 
 ![equity](equity.png)
 
