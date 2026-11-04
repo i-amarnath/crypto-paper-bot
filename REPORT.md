@@ -1,13 +1,13 @@
-# Crypto paper-trading trial (🟢 RUNNING - 0.6h left)
+# Crypto paper-trading trial (🏁 FINISHED)
 
-Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 04 Nov 15:28 IST (run #8).
+Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 04 Nov 23:26 IST (run #9).
 
 | Account | Equity | P&L | Return | Trades | Win rate | Open |
 |---|---:|---:|---:|---:|---:|---:|
-| **trend** | $49.88 | $-0.12 | -0.25% | 9 | 22% | 2 |
+| **trend** | $49.99 | $-0.01 | -0.01% | 11 | 36% | 0 |
 | **meanrev** | $49.77 | $-0.23 | -0.45% | 2 | 0% | 0 |
-| **breakout** | $49.31 | $-0.69 | -1.39% | 8 | 0% | 1 |
-| *buy & hold (benchmark)* | $50.27 | $+0.27 | +0.53% | - | - | - |
+| **breakout** | $49.23 | $-0.77 | -1.53% | 11 | 9% | 0 |
+| *buy & hold (benchmark)* | $50.47 | $+0.47 | +0.94% | - | - | - |
 
 ![equity](equity.png)
 
@@ -19,16 +19,17 @@ Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 
 
 ## Open positions
 
-| Strategy | Coin | Entry | Now | Stop | Target | Unrealized |
-|---|---|---:|---:|---:|---:|---:|
-| trend | BTC | 77447.9 | 78431.3 | 76799 | 78745.6 | $+0.192 |
-| trend | XRP | 1.27174 | 1.2815 | 1.2581 | 1.299 | $+0.110 |
-| breakout | ETH | 2298.48 | 2319.99 | 2306.12 | trailing | $+0.137 |
+None.
 
 ## Last 25 closed trades
 
 | Strategy | Coin | In | Out | Entry | Exit | P&L | Why |
 |---|---|---|---|---:|---:|---:|---|
+| breakout | XRP | 04 Nov 16:00 | 04 Nov 16:03 | 1.29065 | 1.29225 | $-0.012 (-0.07%) | trial ended |
+| breakout | SOL | 04 Nov 16:00 | 04 Nov 16:03 | 93.6968 | 93.3833 | $-0.088 (-0.53%) | trial ended |
+| breakout | ETH | 04 Nov 11:15 | 04 Nov 16:03 | 2298.48 | 2326.11 | $+0.164 (+1.00%) | trial ended |
+| trend | XRP | 04 Nov 10:30 | 04 Nov 16:03 | 1.27174 | 1.29225 | $+0.233 (+1.41%) | trial ended |
+| trend | BTC | 04 Nov 11:00 | 04 Nov 16:03 | 77447.9 | 78490.4 | $+0.188 (+1.14%) | trial ended |
 | trend | ETH | 04 Nov 10:45 | 04 Nov 14:00 | 2281.81 | 2327.28 | $+0.294 (+1.79%) | take-profit |
 | trend | DOGE | 04 Nov 02:15 | 04 Nov 06:00 | 0.0752476 | 0.0747678 | $-0.138 (-0.84%) | stop-loss |
 | trend | XRP | 04 Nov 02:30 | 04 Nov 05:45 | 1.28024 | 1.27346 | $-0.121 (-0.73%) | EMA cross-down |
