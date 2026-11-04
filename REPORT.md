@@ -1,13 +1,13 @@
-# Crypto paper-trading trial (🟢 RUNNING - 7.8h left)
+# Crypto paper-trading trial (🟢 RUNNING - 0.6h left)
 
-Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 04 Nov 08:15 IST (run #7).
+Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 Nov 16:03 IST**. Each strategy started with **$50**. Coins: BTC, ETH, SOL, XRP, DOGE on 15m candles. Fees 0.1%/side + 0.05% slippage included. Last update 04 Nov 15:28 IST (run #8).
 
 | Account | Equity | P&L | Return | Trades | Win rate | Open |
 |---|---:|---:|---:|---:|---:|---:|
-| **trend** | $49.28 | $-0.72 | -1.44% | 8 | 12% | 0 |
+| **trend** | $49.88 | $-0.12 | -0.25% | 9 | 22% | 2 |
 | **meanrev** | $49.77 | $-0.23 | -0.45% | 2 | 0% | 0 |
-| **breakout** | $49.17 | $-0.83 | -1.66% | 8 | 0% | 0 |
-| *buy & hold (benchmark)* | $49.19 | $-0.81 | -1.62% | - | - | - |
+| **breakout** | $49.31 | $-0.69 | -1.39% | 8 | 0% | 1 |
+| *buy & hold (benchmark)* | $50.27 | $+0.27 | +0.53% | - | - | - |
 
 ![equity](equity.png)
 
@@ -19,12 +19,17 @@ Fake money, real binance_vision prices. Started **02 Nov 16:03 IST**, ends **04 
 
 ## Open positions
 
-None.
+| Strategy | Coin | Entry | Now | Stop | Target | Unrealized |
+|---|---|---:|---:|---:|---:|---:|
+| trend | BTC | 77447.9 | 78431.3 | 76799 | 78745.6 | $+0.192 |
+| trend | XRP | 1.27174 | 1.2815 | 1.2581 | 1.299 | $+0.110 |
+| breakout | ETH | 2298.48 | 2319.99 | 2306.12 | trailing | $+0.137 |
 
 ## Last 25 closed trades
 
 | Strategy | Coin | In | Out | Entry | Exit | P&L | Why |
 |---|---|---|---|---:|---:|---:|---|
+| trend | ETH | 04 Nov 10:45 | 04 Nov 14:00 | 2281.81 | 2327.28 | $+0.294 (+1.79%) | take-profit |
 | trend | DOGE | 04 Nov 02:15 | 04 Nov 06:00 | 0.0752476 | 0.0747678 | $-0.138 (-0.84%) | stop-loss |
 | trend | XRP | 04 Nov 02:30 | 04 Nov 05:45 | 1.28024 | 1.27346 | $-0.121 (-0.73%) | EMA cross-down |
 | meanrev | ETH | 04 Nov 06:30 | 04 Nov 06:45 | 2275.82 | 2262.86 | $-0.128 (-0.77%) | stop-loss |
